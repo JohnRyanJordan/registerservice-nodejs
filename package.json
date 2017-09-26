@@ -1,0 +1,39 @@
+{
+  "name": "register-app",
+  "version": "0.0.1",
+  "description": "API for a basic register. HTTP service using restify written in typescript.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node_modules/.bin/_mocha test/unit/**/*.spec.js",
+    "compile": "node_modules/.bin/tsc",
+    "start": "node app/app.js"
+  },
+  "keywords": [
+    "typescript",
+    "restify"
+  ],
+  "author": "rxp01",
+  "license": "MIT",
+  "dependencies": {
+    "@types/chai": "4.0.x",
+    "@types/mocha": "2.2.x",
+    "@types/node": "8.0.x",
+    "@types/restify": "5.0.x",
+    "@types/sinon": "2.3.x",
+    "@types/supertest": "2.0.x",
+    "@types/pg-promise": "5.4.x",
+    "@types/moment": "2.13.x",
+    "pg-promise": "6.9.x",
+    "uuidv4": "0.5.x",
+    "moment": "2.18.x",
+    "restify": "6.0.x"
+  },
+  "devDependencies": {
+    "chai": "4.1.x",
+    "mocha": "3.5.x",
+    "sinon": "3.3.x",
+    "supertest": "3.0.x",
+    "tslint": "5.7.x",
+    "typescript": "2.5.x"
+  }
+}
