@@ -31,14 +31,14 @@
     "pg-promise": "6.9.x",
     "uuidv4": "0.5.x",
     "moment": "2.18.x",
-    "restify": "6.0.x"
+    "restify": "6.0.x",
+    "typescript": "2.5.x"
   },
   "devDependencies": {
     "chai": "4.1.x",
     "mocha": "3.5.x",
     "sinon": "3.3.x",
     "supertest": "3.0.x",
-    "tslint": "5.7.x",
-    "typescript": "2.5.x"
+    "tslint": "5.7.x"
   }
 }
