@@ -24,8 +24,6 @@ CREATE TABLE product (
 ) WITH (
   OIDS=FALSE
 );
-ALTER TABLE product
-  OWNER TO registerappadmin;
 
 CREATE INDEX ix_product_lookupcode
   ON product
