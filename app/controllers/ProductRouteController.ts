@@ -19,6 +19,7 @@ export default class ProductRouteController extends RouteController {
 	}
 
 	public queryProductById(req: restify.Request, res: restify.Response, next: restify.Next) {
+		console.log('Connection string ' + process.env.DATABASE_URL);
 		(new ProductByIdQuery({ id: req.params.id }))
 			.execute()
 			.then((body: any) => {

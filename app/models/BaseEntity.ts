@@ -1,7 +1,6 @@
 const uuid = require('uuidv4');
 import * as moment from 'moment';
 import {IDatabase} from 'pg-promise';
-import {settings} from '../config/config';
 import {SQLKeyword} from './constants/sql/keywords';
 import {SQLComparison} from './constants/sql/comparisons';
 import {PostgreFormat} from './constants/sql/postgreFormats';
